@@ -1,6 +1,7 @@
 # pands-problem-sheet
 
 # Week 1 problem
+<<<<<<< HEAD
 Create a program that will intake attribute values and return an individual's Body Mass Index (BMI).
 
 To do this, I will follow the workflow from this week's lectures using the Input function and Print function.
@@ -20,3 +21,8 @@ References :
 (3)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
 
 # Week 2 Problem
+=======
+Create a simple program that will intake vales and return an individual's Body Mass Index (BMI).
+
+To do this, I 
+>>>>>>> 7c64ea4ee40a014d32b0347ad69b33d9a9f7f26e
