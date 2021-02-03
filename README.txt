@@ -20,3 +20,20 @@ References :
 (3)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
 
 # Week 3 Problem
+Create a program that asks a user to input a string and outputs every second letter in reverse order.
+
+To complete this, I first thought about the process flow of the operation, as in which comes first : the reversing
+operation or the 'taking ever second letter' operation. I played around with both ideas (incorporating W3 Schools (1)) and settled
+on reversing the string first. To do this, I used the reverse function.
+
+I set up the program by asking the user to input a sentence that would be the basis of the program, using the input functon.
+I then reversed the string to allow downstream manipulations.
+Using string slicing, I then took every second letter of the reversed sentence and finished off by printing the output onscree using
+the print funtion. 
+
+I made sure to add comments after each line to demonstrate how the function was behaving at each step, based upon directions given in 
+the recommended textbook (2).
+
+References:
+(1)W3 Schools. 2021. Python - Slicing Strings. [ONLINE] Available at: https://www.w3schools.com/python/python_strings_slicing.asp. [Accessed 3 February 2021].
+(2)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
