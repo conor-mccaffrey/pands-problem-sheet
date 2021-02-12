@@ -50,7 +50,7 @@ reading material (1).
 I then thought about the logic and flow of the loop. I broke down the problem to several individual segments. One segement was the test to determine
 if the integer was even and how to respond (divide result by two, using floor division to ensure an integer is returned and not a float).
 The next segment was how to respond if number was odd (multiplying by 3 and adding 1, using brackets to control the order of operations) and the final
-segement was to break the flow if the value was 1. To do this segment, I encompassed my 'if' loop in a 'while' statement. Using a 'while' loop
+segement was to break the flow if the value was 1. To carry this segment, I encompassed my 'if' loop in a 'while' statement. Using a 'while' loop
 ensured the loop would indeed 'loop around', unlike an 'if' control flow statement. 
 
 References:
