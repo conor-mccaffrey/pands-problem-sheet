@@ -38,7 +38,7 @@ References:
 (1)W3 Schools. 2021. Python - Slicing Strings. [ONLINE] Available at: https://www.w3schools.com/python/python_strings_slicing.asp. [Accessed 3 February 2021].
 (2)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
 
-Week 4 Problem
+# Week 4 Problem
 Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
 This task was a 'step up' on previous tasks. This involved some logic thinking in addition to coding abilities learned 
@@ -55,3 +55,24 @@ ensured the loop would indeed 'loop around', unlike an 'if' control flow stateme
 
 References:
  (1)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
+
+# Week5 Problem
+Write a program that outputs whether or not today is a weekday.
+
+Again, this weeks task was another 'step-up' in difficulty level. I first consulted the recommended textbook for general examples regarding the use of lists,
+sets and dictionaries. Quite quickly, it became clear using lists was the best way to complete the task.
+
+I made two lists: one for weekdays and one for the days of the weekend. The list containing days of the weekend was probably not overly
+necessary for my solution, but I wanted to include it just for completeness. 
+
+I consulted w3schools (2) for the use of the datetime module and how to import it. I combined this with the 'format' attribute detailed in previous lectures
+to get the current day in ' full-string format (%A)'.
+
+I then constructed a simple 'if' statement that would search our lists with the current day. If the current day appeared in either list (which it almost surely should!)
+then a pre-determined response would be the output.
+
+The next step to this program would be to wrap it in a function to allow the user to simply call the function without needing to construct the 'if' statement everytime.
+
+References:
+(1) A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
+(2) w3schools. 2021. Python Dates. [ONLINE] Available at: https://www.w3schools.com/python/python_datetime.asp. [Accessed 18 February 2021].
