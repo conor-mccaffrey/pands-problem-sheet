@@ -68,7 +68,7 @@ necessary for my solution, but I wanted to include it just for completeness.
 I consulted w3schools (2) for the use of the datetime module and how to import it. I combined this with the 'format' attribute detailed in previous lectures
 to get the current day in ' full-string format (%A)'.
 
-I then constructed a simple 'if' statement that would search our lists with the current day. If the current day appeared in either list (which it almost surely should!)
+I then constructed a simple 'if' statement that would search our constructed lists with the current day. If the current day appeared in either list (which it almost surely should!)
 then a pre-determined response would be the output.
 
 The next step to this program would be to wrap it in a function to allow the user to simply call the function without needing to construct the 'if' statement everytime.
