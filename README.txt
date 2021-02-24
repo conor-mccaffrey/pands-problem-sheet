@@ -76,3 +76,16 @@ The next step to this program would be to wrap it in a function to allow the use
 References:
 (1) A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
 (2) w3schools. 2021. Python Dates. [ONLINE] Available at: https://www.w3schools.com/python/python_datetime.asp. [Accessed 18 February 2021].
+
+
+# Week 6 Problem
+
+To begin this problem, I looked into what Newtons Method actually was and how it could be applied in finding the approximate square root of a number. To to this, I consulted several
+sites suchs as StackExchange (1) and GeekforGeeks (2) and Medium (3). I came across several examples of how to carry out the required task and looked into how I would adapt the examples
+to align with our needs. I 
+
+
+References:
+(1) https://math.stackexchange.com/questions/3524205/square-roots-by-newton-s-method
+(2) GeeksforGeeks. 2021. Find root of a number using Newton's method - GeeksforGeeks. [ONLINE] Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/. [Accessed 24 February 2021].
+(3) https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
