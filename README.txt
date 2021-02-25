@@ -88,7 +88,7 @@ I defined the function and asked the user to input a positive number which I the
 
 I then iniatied another variable I called 'Guess' (leaning heavily on the School for Champions (5) text).
 
-I knew immediately a 'for' loop would be required so I also included a default argument in our defined function. I set the 'number of iterations' to 10 mostly to ensure the correct result would be attained (setting 
+I knew immediately a 'for' loop would be required so I also included a default argument in our defined function for clarity. I set the 'number of iterations' to 10 mostly to ensure the correct result would be attained (setting 
 the number of iterations to 1 gave a result of 4.6). The variable 'Guess' was set to the formula of Newton's method outline in refereces 1-4 (( x_(n+1) = 0.5 * (x_n +a / x_n))). I added a 'print'
 function at the end, incorporating our variables, in order to align the function with the example given. This is also why I added the round function to ensure one decimal place.
 
