@@ -81,7 +81,8 @@ References:
 # Week 6 Problem
 
 To begin this problem, I looked into what Newtons Method actually was and how it could be applied in finding the approximate square root of a number. To to this, I consulted several
-sites suchs as StackExchange (1) , GeekforGeeks (2) , Medium (3) and School for Champions(5). I came across several examples of how to carry out the required task and looked into how I would adapt the examples
+sites suchs as StackExchange (1) , GeekforGeeks (2) , Medium (3) and School for Champions(5). I came across several examples of how to carry out the required task and looked into how I
+would adapt the examples
 to align with our needs. 
 
 I defined the function and asked the user to input a positive number which I then converted to a float.
