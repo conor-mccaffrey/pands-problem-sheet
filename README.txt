@@ -99,3 +99,23 @@ References:
 (3) https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
 (4) Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. 2021. Newton's Square Root Approximation by Ron Kurtus - 
     Succeed in Understanding Algebra: School for Champions. [ONLINE] Available at: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDb0jWj7TIW. [Accessed 25 February 2021].
+
+# Week 7 Problem
+
+For this week's problem, I brought in a little bit of my prior experience of Python (MTA certification). I researched several websites to gain an idea of the process flow for counting characters, looking at sites such as 'Geek for Geeks' (1)
+and Python Examples (2). I also gained further exposure the file handing using W3School (3). I first constructed a text file based on the first few pages of
+George Orwell's 1984 book. I imported the os module as per the tutorials.
+
+I defined our function, which accepted one input (the file). I then created an empty list (list1) which would be used to hold each occurence of the letter 'e' in our text file. I also included a line to ensure 
+that the inputted file actually exists. If the file does exist, I requested the function to open it in 'read' mode, assigning the action to the variable 'f'. I then read the file and assigned the action to the variable 'data'. 
+I iniatied a 'for' loop to access each letter in our file and set it each occurence of the letter 'e'. I also used the lower() attribute to account for capital 'E'. For each occurence of the letter 'e', the result is stored in my newly formed
+list (list1). I then asked the function to print the length of the newly formed list, therefore counting the occurences of the letter 'e'. 
+
+I set up the majority of the function inside an 'if' statement, with the 'else' componant accounting for if the file does not exist and also to account for spelling errors when entering the filename.
+
+References:
+(1) GeekforGeeks. 2021. Count the number of times a letter appears in a text file in Python. [ONLINE] Available at: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/. [Accessed 28 February 2021]
+(2) PythonExamples. 2021. Python – Count Number of Characters in Text File. [ONLINE] Available at: https://pythonexamples.org/python-count-number-of-characters-in-text-file/#1. [Accessed 28 February 2021].
+(3) PythonFileOpen. 2021. Python File Open. [ONLINE] Available at: https://www.w3schools.com/python/python_file_handling.asp. [Accessed 28 February 2021].
+
+
