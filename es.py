@@ -9,7 +9,7 @@ def readLetter(file):   # define our function
     if (os.path.exists(file)):  # check first that the file you are inputting exists
             with open(file, 'rt') as f:  # open the file in read mode and assign it as 'f'
                 data = f.read() # read the contents of the file and assign to variable 'data'
-                for char in data: # for loop. For each character in our datafile
+                for char in data: # for loop. For each character in our datafile perform an operation
                     if char.lower() == 'e': # if the letter is e (I have added lower function to account for capital 'E' also)
                         list1.append(char) # add the occurence of the letter 'e' to my list which is defined at start of the function
                 print(len(list1))    # print the length of the list therefore, the occurences of the letter 'e'
