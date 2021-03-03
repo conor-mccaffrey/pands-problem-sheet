@@ -112,6 +112,7 @@ I iniatied a 'for' loop to access each letter in our file and set it each occure
 list (list1). I then asked the function to print the length of the newly formed list, therefore counting the occurences of the letter 'e'. 
 
 I set up the majority of the function inside an 'if' statement, with the 'else' componant accounting for if the file does not exist and also to account for spelling errors when entering the filename.
+I have included the text file I used for reference but not sure if this is correct.
 
 References:
 (1) GeekforGeeks. 2021. Count the number of times a letter appears in a text file in Python. [ONLINE] Available at: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/. [Accessed 28 February 2021]
