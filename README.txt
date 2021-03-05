@@ -117,6 +117,4 @@ I have included the text file I used for reference but not sure if this is corre
 References:
 (1) GeekforGeeks. 2021. Count the number of times a letter appears in a text file in Python. [ONLINE] Available at: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/. [Accessed 28 February 2021]
 (2) PythonExamples. 2021. Python – Count Number of Characters in Text File. [ONLINE] Available at: https://pythonexamples.org/python-count-number-of-characters-in-text-file/#1. [Accessed 28 February 2021].
-(3) PythonFileOpen. 2021. Python File Open. [ONLINE] Available at: https://www.w3schools.com/python/python_file_handling.asp. [Accessed 28 February 2021].
-
-
+(3) PythonFileOpen. 2021. Python File Open. [ONLINE] Available at: https://www.w3schools.com/python/python_file_handling.asp. [Accessed 28 February 2021]
