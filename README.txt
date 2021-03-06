@@ -81,13 +81,13 @@ References:
 # Week 6 Problem
 
 To begin this problem, I looked into what Newtons Method actually was and how it could be applied in finding the approximate square root of a number. To to this, I consulted several
-sites suchs as StackExchange (1) , GeekforGeeks (2) , Medium (3) and School for Champions(5). I came across several examples of how to carry out the required task and looked into how I
+sites suchs as StackExchange (1) , GeekforGeeks (2) , Medium (3) and School for Champions(4). I came across several examples of how to carry out the required task and looked into how I
 would adapt the examples
 to align with our needs. 
 
 I defined the function and asked the user to input a positive number which I then converted to a float.
 
-I then iniatied another variable I called 'Guess' (leaning heavily on the School for Champions (5) text).
+I then iniatied another variable I called 'Guess' (leaning heavily on the School for Champions (4) text).
 
 I knew immediately a 'for' loop would be required so I also included a default argument in our defined function for clarity. I set the 'number of iterations' to 10 mostly to ensure the correct result would be attained (setting 
 the number of iterations to 1 gave a result of 4.6). The variable 'Guess' was set to the formula of Newton's method outline in refereces 1-4 (( x_(n+1) = 0.5 * (x_n +a / x_n))). I added a 'print'
