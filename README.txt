@@ -12,7 +12,7 @@ I then thank the user for using the program.
 
 I started researching the layout of a BMI calculator from Stack Overflow (1)
 For converting cm to m^2, I searched for the correct formula and used the formula on Python Programming (2).
-General usage queries were resolved by consulting recommended testbook (3).
+General usage queries were resolved by consulting recommended testbook(3).
 
 References : 
 (1)Python, B., M, K. and Visser, S., 2021. BMI Calculator in Python. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.> [Accessed 28 January 2021].
