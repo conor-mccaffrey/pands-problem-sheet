@@ -6,7 +6,7 @@ posInt = int(input('Please enter a positive integer')) #ask user for a positive 
 
 print (posInt) #print off the input integer
 while posInt != 1: #easy way to end the loop if the current value is 1
-    if posInt % 2 == 0 : # test to see if input is even
+    if posInt % 2 == 0 : # test to see if input is even.
         posInt = (posInt // 2) # this will execute if integer is even, floor division of the integer
         print (posInt) # print off the current value of the input
     elif posInt % 2 != 0: # elif statement accounts for if input is odd, testing inequality
