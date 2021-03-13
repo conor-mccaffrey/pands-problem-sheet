@@ -1,6 +1,7 @@
 # pands-problem-sheet
 ## Conor McCaffrey
 
+
 ## Week 2 problem
 Create a program that will intake attribute values and return an individual's Body Mass Index (BMI).
 
@@ -17,7 +18,9 @@ General usage queries were resolved by consulting recommended testbook(3).
 
 ### References : 
 (1)Python, B., M, K. and Visser, S., 2021. BMI Calculator in Python. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/50386292#:~:text=')%20while%20input%20%3D%3D%20'imperial,which%20means%20you%20are%20underweight.> [Accessed 28 January 2021].
+
 (2)Arora, A., 2021. Calculate Body Mass Index (BMI) of an individual. [online] Python Programming. Available at: <https://www.pythonprogramming.in/calculate-body-mass-index-bmi-of-an-individual.html> [Accessed 28 January 2021].
+
 (3)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
 
 ## Week 3 Problem
@@ -37,7 +40,9 @@ the recommended textbook (3).
 
 ### References:
 (1)W3 Schools. 2021. Python - Slicing Strings. [ONLINE] Available at: https://www.w3schools.com/python/python_strings_slicing.asp. [Accessed 3 February 2021].
+
 (2) Docs.python.org. 2020. 7.1. String — Common String Operations — Python 2.7.17 Documentation. [online] Available at: https://docs.python.org/2/library/string.html [Accessed 4 February 2021].
+
 (3)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
 
 ## Week 4 Problem
@@ -58,7 +63,9 @@ my code was similar to other examples (3).
 
 ### References:
  (1)A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
+
  (2) Automatetheboringstuff.com. 2020. Automate The Boring Stuff With Python. [online] Available at: https://automatetheboringstuff.com/chapter3/ [Accessed 9 February 2021].
+
  (3) Stack Overflow. (n.d.). Collatz Sequence. (Python 3). [online] Available at: https://stackoverflow.com/questions/33324432/collatz-sequence-python-3 [Accessed 10 February 2021].
 
 
@@ -81,6 +88,7 @@ The next step to this program would be to wrap it in a function to allow the use
 
 ### References:
 (1) A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1
+
 (2) w3schools. 2021. Python Dates. [ONLINE] Available at: https://www.w3schools.com/python/python_datetime.asp. [Accessed 18 February 2021].
 
 
@@ -101,11 +109,16 @@ function at the end, incorporating our variables, in order to align the function
 sililarly to the idea of Newton's Method (5).
 
 ### References:
-(1) https://math.stackexchange.com/questions/3524205/square-roots-by-newton-s-method
+(1) Mathematics Stack Exchange. 2021. approximation - Square roots by Newtons method - Mathematics Stack Exchange. [ONLINE] Available at: https://math.stackexchange.com/questions/3524205/square-roots-by-newton-s-method. [Accessed 23 February 2021].
+
+
 (2) GeeksforGeeks. 2021. Find root of a number using Newton's method - GeeksforGeeks. [ONLINE] Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/. [Accessed 24 February 2021].
-(3) https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
-(4) Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. 2021. Newton's Square Root Approximation by Ron Kurtus - 
-    Succeed in Understanding Algebra: School for Champions. [ONLINE] Available at: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDb0jWj7TIW. [Accessed 25 February 2021].
+
+(3) Sıddık Açıl. 2021. Newton Square Root Method in Python | by Sıddık Açıl | Medium. [ONLINE] Available at: https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d. [Accessed 25 February 2021].
+
+
+(4) Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. 2021. Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. [ONLINE] Available at: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDb0jWj7TIW. [Accessed 25 February 2021].
+
 (5) En.wikipedia.org. 2020. Newton's Method. [online] Available at: https://en.wikipedia.org/wiki/Newton%27s_method [Accessed 25 February 2021].    
 
 ## Week 7 Problem
@@ -116,7 +129,7 @@ George Orwell's 1984 book. I imported the os module as per the tutorials.
 
 I defined our function, which accepted one input (the file). I then created an empty list (list1) which would be used to hold each occurence of the letter 'e' in our text file. I also included a line to ensure 
 that the inputted file actually exists. If the file does exist, I requested the function to open it in 'read' mode, assigning the action to the variable 'f'. I then read the file and assigned the action to the variable 'data'. 
-I iniatied a 'for' loop to access each letter in our file and set it each occurence of the letter 'e' (drawing on the examples given in Stack Overflow (5)). I also used the lower() attribute to account for capital 'E'. For each occurence of the letter 'e', the result is stored in my newly formed
+I iniatied a 'for' loop to access each letter in our file and set it each occurence of the letter 'e' (drawing on the examples given in Stack Overflow (4)). I also used the lower() attribute to account for capital 'E'. For each occurence of the letter 'e', the result is stored in my newly formed
 list (list1). I then asked the function to print the length of the newly formed list, therefore counting the occurences of the letter 'e'. 
 
 I set up the majority of the function inside an 'if' statement, with the 'else' componant accounting for if the file does not exist and also to account for spelling errors when entering the filename.
@@ -124,10 +137,12 @@ I have included the text file I used for reference but not sure if this is corre
 
 ### References:
 (1) GeekforGeeks. 2021. Count the number of times a letter appears in a text file in Python. [ONLINE] Available at: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/. [Accessed 28 February 2021]
+
 (2) PythonExamples. 2021. Python – Count Number of Characters in Text File. [ONLINE] Available at: https://pythonexamples.org/python-count-number-of-characters-in-text-file/#1. [Accessed 28 February 2021].
+
 (3) PythonFileOpen. 2021. Python File Open. [ONLINE] Available at: https://www.w3schools.com/python/python_file_handling.asp. [Accessed 28 February 2021]
-(5) Python, C., Pieters, M. and Smith, A., 2020. Counting Specific Letters Or Symbols In A Text File In Python. [online] Stack Overflow. 
-    Available at: https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python [Accessed 28 February 2021].
+
+(4) Python, C., Pieters, M. and Smith, A., 2020. Counting Specific Letters Or Symbols In A Text File In Python. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python [Accessed 28 February 2021].
 
 
 ## Week 8 Problem
@@ -148,11 +163,17 @@ to save the plot as I don't think it would be prudent to write the code and not 
 
 ### References:
 (1) Real Python. 2021. Defining Your Own Python Function – Real Python. [ONLINE] Available at: https://realpython.com/defining-your-own-python-function/. [Accessed 13 March 2021].
+
 (2) Pyplot tutorial — Matplotlib 3.3.4 documentation. 2021. Pyplot tutorial — Matplotlib 3.3.4 documentation. [ONLINE] Available at: https://matplotlib.org/stable/tutorials/introductory/pyplot.html. [Accessed 13 March 2021].
+
 (3) Real Python. 2021. NumPy arange(): How to Use np.arange() (Overview) – Real Python. [ONLINE] Available at: https://realpython.com/lessons/numpy-arange-overview/. [Accessed 13 March 2021].
+
 (4) Matplotlib Tutorial. 2021. Matplotlib Tutorial. [ONLINE] Available at: https://www.w3schools.com/python/matplotlib_intro.asp. [Accessed 13 March 2021].
+
 (5) Elliott Saslow. 2021. Plotting Equations with Python. This article is going to cover plotting… | by Elliott Saslow | Future Vision | Medium. [ONLINE] Available at: https://medium.com/future-vision/plotting-equations-in-python-d0edd9f088c8. [Accessed 13 March 2021].
+
 (6) Controlling style of text and labels using a dictionary — Matplotlib 3.1.2 documentation. 2021. Controlling style of text and labels using a dictionary — Matplotlib 3.1.2 documentation. [ONLINE] Available at: https://matplotlib.org/3.1.1/gallery/text_labels_and_annotations/text_fontdict.html. [Accessed 13 March 2021].
+
 (7) O’Reilly Online Learning. 2021. 4. Visualization with Matplotlib - Python Data Science Handbook [Book]. [ONLINE] Available at: https://www.oreilly.com/library/view/python-data-science/9781491912126/ch04.html. [Accessed 13 March 2021].
 
 
