@@ -19,8 +19,8 @@ plt.plot(y2, color='#57de5a', ls='-.', lw = 2,
 plt.plot(y3, color='#ff0202', ls='-.', lw = 2, 
          marker='o', ms ='5', mec='black', mfc = 'hotpink', label='h(x)=x^3')  # plotting each point and making the plot pretty
 
-plt.xlabel('x-axis', fontdict=font1)  # adding labels
-plt.ylabel('y-axis', fontdict=font1)   # adding labels
+plt.xlabel('x-axis', fontdict=font1)  # adding labels and setting the font
+plt.ylabel('y-axis', fontdict=font1)   # adding labels and setting the font
 plt.title('Plot Task', fontdict=font, loc = 'left')  # adding a title and properties
 plt.legend()   # adding a legend for clarity
 plt.grid(axis = 'y', color = 'green' , lw = 0.1) # adding a y=axis grid and setting properties
