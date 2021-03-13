@@ -129,7 +129,7 @@ References:
     Available at: https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python [Accessed 28 February 2021].
 
 
-# Week 8 Problem
+<h1> # Week 8 Problem </h1>
 
 This task was very different as we got into plotting data and data visualisation, which was very intersting. 
 
