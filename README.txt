@@ -127,3 +127,29 @@ References:
 (3) PythonFileOpen. 2021. Python File Open. [ONLINE] Available at: https://www.w3schools.com/python/python_file_handling.asp. [Accessed 28 February 2021]
 (5) Python, C., Pieters, M. and Smith, A., 2020. Counting Specific Letters Or Symbols In A Text File In Python. [online] Stack Overflow. 
     Available at: https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python [Accessed 28 February 2021].
+
+
+# Week 8 Problem
+
+This task was very different as we got into plotting data and data visualisation, which was very intersting. 
+
+To begin, I imported the relavent libraries, numpy and matplotlib assigning asliases for clarity. I then researched various examples of plotting in Python from recommended reading (1) and my own research (2). 
+I set the the value of x, incorporating the 'arange' attribute as requested in the task and described in 'Real Python' (3). I set the 'step' value of this attribute as 1 and set the 'start' value as 0, despite 
+this being the default value. I defined the y=axis values of y1,y2 and y3 to tie in with the task which will be f(x), g(x) and h(x).
+
+Once these values were defined, I set about plotting the data. For this, I leaned heavily on the plotting properties detailed in W3Schools (4) and also examples on 'Medium.com' (5) which gives examples of plotting 
+equations. I purposefully added different fonts, styles, colours, markers, line properties to demonstrate further reading. I also added labels and changed the font associated with the labels/titles to make the plot more 
+visually accessible, drawing on examples in matplotlib.org (6). I changed the position of the title towards the left just for the change.
+
+I added gridlines, axis labels, and a legend (drawing on best practices as seen in reference 7) to make the plot more accessible to understand, drawing on examples in W3Schools and then displayed the plot. I also added a 'commented-out' line fo code that would be used
+to save the plot as I don't think it would be prudent to write the code and not have the option to save it instead if displaying it.
+
+
+References:
+(1) Real Python. 2021. Defining Your Own Python Function – Real Python. [ONLINE] Available at: https://realpython.com/defining-your-own-python-function/. [Accessed 13 March 2021].
+(2) Pyplot tutorial — Matplotlib 3.3.4 documentation. 2021. Pyplot tutorial — Matplotlib 3.3.4 documentation. [ONLINE] Available at: https://matplotlib.org/stable/tutorials/introductory/pyplot.html. [Accessed 13 March 2021].
+(3) Real Python. 2021. NumPy arange(): How to Use np.arange() (Overview) – Real Python. [ONLINE] Available at: https://realpython.com/lessons/numpy-arange-overview/. [Accessed 13 March 2021].
+(4) Matplotlib Tutorial. 2021. Matplotlib Tutorial. [ONLINE] Available at: https://www.w3schools.com/python/matplotlib_intro.asp. [Accessed 13 March 2021].
+(5) Elliott Saslow. 2021. Plotting Equations with Python. This article is going to cover plotting… | by Elliott Saslow | Future Vision | Medium. [ONLINE] Available at: https://medium.com/future-vision/plotting-equations-in-python-d0edd9f088c8. [Accessed 13 March 2021].
+(6) Controlling style of text and labels using a dictionary — Matplotlib 3.1.2 documentation. 2021. Controlling style of text and labels using a dictionary — Matplotlib 3.1.2 documentation. [ONLINE] Available at: https://matplotlib.org/3.1.1/gallery/text_labels_and_annotations/text_fontdict.html. [Accessed 13 March 2021].
+(7) O’Reilly Online Learning. 2021. 4. Visualization with Matplotlib - Python Data Science Handbook [Book]. [ONLINE] Available at: https://www.oreilly.com/library/view/python-data-science/9781491912126/ch04.html. [Accessed 13 March 2021].
