@@ -4,7 +4,7 @@
 
 import datetime  #import datetime module as per W3Schools 
 
-weekDays =['Monday','Tuesday','Wednesday','Thursday','Friday'] # List of all the weekdays
+weekDays = ['Monday','Tuesday','Wednesday','Thursday','Friday'] # List of all the weekdays
 weekEnd = ['Saturday','Sunday'] # In this example, this list isn't needed but included for completeness
 
 now = datetime.date.today() # Using datetime module, this code gets us the current date
