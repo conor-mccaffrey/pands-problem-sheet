@@ -3,9 +3,9 @@
 
 import numpy as np, matplotlib.pyplot as plt   # importing libraries and assiging aliases
 
-x = np.arange(0,4,1)   # setting the range as described in task and in RealPython reference
+x = np.arange(0.0,4.0,1.0)   # setting the range as described in task and in RealPython reference
 
-y1 = x   #plotting the points on y-axis
+y1 = x   # plotting the points on y-axis
 y2 = x**2 #plotting the points on y-axis
 y3 = x**3 #plotting the points on y-axis
 
