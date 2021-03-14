@@ -177,4 +177,4 @@ to save the plot as I don't think it would be prudent to write the code and not 
 (7) O’Reilly Online Learning. 2021. 4. Visualization with Matplotlib - Python Data Science Handbook [Book]. [ONLINE] Available at: https://www.oreilly.com/library/view/python-data-science/9781491912126/ch04.html. [Accessed 13 March 2021].
 
 
-# Thank you 
+# Thank you.
