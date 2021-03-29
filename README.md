@@ -95,18 +95,16 @@ The next step to this program would be to wrap it in a function to allow the use
 ## Week 6 Problem
 
 To begin this problem, I looked into what Newtons Method actually was and how it could be applied in finding the approximate square root of a number. To to this, I consulted several
-sites suchs as StackExchange (1) , GeekforGeeks (2) , Medium (3) and School for Champions(4). I came across several examples of how to carry out the required task and looked into how I
-would adapt the examples
-to align with our needs. 
+sites suchs as StackExchange (1) , GeekforGeeks (2,5) , Medium (3) and School for Champions(4) and Hackernoon.com (5). I came across several examples of how to carry out the required task and looked into how I would adapt the examples to align with our needs. 
 
-I defined the function and asked the user to input a positive number which I then converted to a float.
+I defined the function and set it to take in one arguement which would be assigned to the variable 'numtoCalc'.
 
-I then iniatied another variable I called 'Guess' (leaning heavily on the School for Champions (4) text).
+I then set my precision levels based upon the hackernoon.com reference (5).
 
-I knew immediately a 'for' loop would be required so I also included a default argument in our defined function for clarity. I set the 'number of iterations' to 10 mostly to ensure the correct result would be attained (setting 
-the number of iterations to 1 gave a result of 4.6). The variable 'Guess' was set to the formula of Newton's method outline in refereces 1-4 (( x_(n+1) = 0.5 * (x_n +a / x_n))). I added a 'print'
-function at the end, incorporating our variables, in order to align the function with the example given. This is also why I added the round function to ensure one decimal place. I looked over my example and determined if it function
-sililarly to the idea of Newton's Method (5).
+I then set up a while loop statemtent. This was based upon the foundation of Newtons method. The statement would only run if the absolute value of our approximation was above our pre-defined 
+precision level. If it was above this level, the code wold run. This code for Newtons method was obtained from reference 5 and also from Geek for Geeks Newton example (6).
+
+I added a 'print' function at the end, incorporating our variables, in order to align the function with the example given. This is also why I added the round function to ensure one decimal place. I looked over my example and determined if it functioned similarly to the idea of Newton's Method.
 
 ### References:
 (1) Mathematics Stack Exchange. 2021. approximation - Square roots by Newtons method - Mathematics Stack Exchange. [ONLINE] Available at: https://math.stackexchange.com/questions/3524205/square-roots-by-newton-s-method. [Accessed 23 February 2021].
@@ -116,10 +114,11 @@ sililarly to the idea of Newton's Method (5).
 
 (3) Sıddık Açıl. 2021. Newton Square Root Method in Python | by Sıddık Açıl | Medium. [ONLINE] Available at: https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d. [Accessed 25 February 2021].
 
-
 (4) Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. 2021. Newton's Square Root Approximation by Ron Kurtus - Succeed in Understanding Algebra: School for Champions. [ONLINE] Available at: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDb0jWj7TIW. [Accessed 25 February 2021].
 
-(5) En.wikipedia.org. 2020. Newton's Method. [online] Available at: https://en.wikipedia.org/wiki/Newton%27s_method [Accessed 25 February 2021].    
+(5) hackernoon.com. Calculating the Square Root of a Number using the Newton-Raphson Method [A How To Guide] | Hacker Noon. [online] Available at: https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo [Accessed 29 Mar. 2021].
+
+(6) GeeksforGeeks. (2020). Find root of a number using Newton’s method. [online] Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ [Accessed 29 Mar. 2021].
 
 ## Week 7 Problem
 

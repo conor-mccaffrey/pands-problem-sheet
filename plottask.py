@@ -24,5 +24,5 @@ plt.ylabel('y-axis', fontdict=font1)   # adding labels and setting the font
 plt.title('Plot Task', fontdict=font, loc = 'left')  # adding a title and properties
 plt.legend()   # adding a legend for clarity
 plt.grid(axis = 'y', color = 'green' , lw = 0.1) # adding a y=axis grid and setting properties
-plt.show()   # displaying the graph
-# plt.savefig('plottask.png')   # adding code here that would be used to save the file if we did not want to show it 
+#plt.show()   # displaying the graph
+plt.savefig('plottask.png')   # adding code here that would be used to save the file if we did not want to show it 

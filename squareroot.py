@@ -2,13 +2,17 @@
 # Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 # Author: Conor McCaffrey
 
-def sqrt(numOfIterations=10):    # I have set this to 10 arbitrarily in oredr to ensure enough loops occue to capture the closest value
-    numToCalc = float(input('Please enter a positive integer')) # Enter an positive number which will be converted to a float
-    Guess = numToCalc + 1 # This is done in order to initiate our 'guess' equation downstream as per Newton's method
+
+def sqrt(numtoCalc):  # defining the function and taking in one argument called 'numtoCalc'
     
-    for i in range(numOfIterations): # Begin our 'for' loop
-        Guess = (0.5) * (Guess + (numToCalc/Guess))  # Using Newtons method  ( x_(n+1) = 0.5 * (x_n +a / x_n)   )
-    print('The square root of', numToCalc, 'is approx.' , round(Guess,1))  # Printing out the required output and rounding result to one decimal place
-    return Guess   # Returning the value of Guess
+    Guess = numtoCalc
+    precision = 10 ** (-10)  # setting precision as per reference to assist in testing for closeness
     
-sqrt()  # Calling the function. No arguement needs to be passed here due to the use of a default argument
+    while abs(numtoCalc - Guess * Guess) > precision:  # while statement to check if our value is greater than the precision. If it is not, we stop looping
+        Guess = (Guess + numtoCalc / Guess) / 2  # this is Newtons method. This will continue until we get a difference between approximations that is below our precision level
+    
+    print('The square root of', numtoCalc, 'is approx.' , round(Guess,1))  # Printing out the required output and rounding result to one decimal place
+
+    return Guess # returning the value of Guess
+
+sqrt(14.5)
