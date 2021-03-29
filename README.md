@@ -122,16 +122,11 @@ I added a 'print' function at the end, incorporating our variables, in order to 
 
 ## Week 7 Problem
 
-For this week's problem, I brought in a little bit of my prior experience of Python (MTA certification). I researched several websites to gain an idea of the process flow for counting characters, looking at sites such as 'Geek for Geeks' (1)
-and Python Examples (2). I also gained further exposure the file handing using W3School (3). I first constructed a text file based on the first few pages of
-George Orwell's 1984 book. I imported the os module as per the tutorials.
+For this week's problem, I brought in a little bit of my prior experience of Python (MTA certification). I researched several websites to gain an idea of the process flow for counting characters, looking at sites such as 'Geek for Geeks' (1) and Python Examples (2). I also gained further exposure the file handing using W3School (3). I first constructed a text file based on the first few pages of George Orwell's 1984 book. I imported the os module as per the tutorials.
 
-I defined our function, which accepted one input (the file). I then created an empty list (list1) which would be used to hold each occurence of the letter 'e' in our text file. I also included a line to ensure 
-that the inputted file actually exists. If the file does exist, I requested the function to open it in 'read' mode, assigning the action to the variable 'f'. I then read the file and assigned the action to the variable 'data'. 
-I iniatied a 'for' loop to access each letter in our file and set it each occurence of the letter 'e' (drawing on the examples given in Stack Overflow (4)). I also used the lower() attribute to account for capital 'E'. For each occurence of the letter 'e', the result is stored in my newly formed
-list (list1). I then asked the function to print the length of the newly formed list, therefore counting the occurences of the letter 'e'. 
+I defined our function, which accepted one input (the file). I also included a line to ensure  that the inputted file actually exists. If the file does exist, I requested the function to open it in 'read' mode, assigning the action to the variable 'text_file'. I then read the file and assigned the action to the variable 'data'. 
+I then used the 'count' method in order to count the number of occurences of both lower-case and capital letter 'E's in our imported text file (4). I assigned both actions to a different variable and finished off the problem by including a 'print' statement that incorporated string concatenation.
 
-I set up the majority of the function inside an 'if' statement, with the 'else' componant accounting for if the file does not exist and also to account for spelling errors when entering the filename.
 I have included the text file I used for reference but not sure if this is correct.
 
 ### References:
@@ -141,7 +136,9 @@ I have included the text file I used for reference but not sure if this is corre
 
 (3) PythonFileOpen. 2021. Python File Open. [ONLINE] Available at: https://www.w3schools.com/python/python_file_handling.asp. [Accessed 28 February 2021]
 
-(4) Python, C., Pieters, M. and Smith, A., 2020. Counting Specific Letters Or Symbols In A Text File In Python. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python [Accessed 28 February 2021].
+(4) Stack Overflow. Counting specific letters or symbols in a text file in Python. [online] Available at: https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python [Accessed 29 Mar. 2021].
+
+
 
 
 ## Week 8 Problem
